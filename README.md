@@ -14,8 +14,10 @@
     整个过程也还算比较顺利。
     
         里面的资源图片是找的别人的App里的解压出来的，整个框架只是用的AndroidStudio自带的Navigation Drawer Activity, 然后去
-        
-   掉了Toolbar等，自己重新添加了TitleBar，侧边栏也做了一些修改。
+    
+    掉了Toolbar等，自己重新添加了TitleBar，侧边栏也做了一些修改。
+  
+  
    
 ###功能：
 - 1. 分段画战术轨迹，最后合成播放
