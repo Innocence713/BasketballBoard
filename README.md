@@ -30,5 +30,6 @@
 
 --------
 ###演示gif
-    
+    ![](https://github.com/Innocence713/BasketballBoard/blob/master/GifDemo/1.gif)
+    ![](https://github.com/Innocence713/BasketballBoard/blob/master/GifDemo/2.gif)
     
