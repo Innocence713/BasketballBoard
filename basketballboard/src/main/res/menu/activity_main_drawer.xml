@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@mipmap/open_floder"
+        android:title="选项">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_open_folder"
+                    android:icon="@mipmap/open_floder"
+                    android:title="战术库"/>
+                <item
+                    android:id="@+id/nav_pencil_color"
+                    android:icon="@mipmap/pencil_color"
+                    android:title="轨迹颜色"/>
+                <item
+                    android:id="@+id/nav_pencil_width"
+                    android:icon="@mipmap/pencil_width"
+                    android:title="轨迹宽度"/>
+                <item
+                    android:id="@+id/nav_save_floder"
+                    android:icon="@mipmap/save_floder"
+                    android:title="保存"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="其他">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about_me"
+                    android:icon="@mipmap/about_me"
+                    android:title="关于"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#cc111111"
+                android:gravity="center_vertical">
+
+    <ImageButton
+        android:id="@+id/bottom_menu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/selector_menu"/>
+
+    <ImageButton
+        android:id="@+id/bottom_add"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/bottom_menu"
+        android:background="@drawable/selector_add"/>
+
+
+    <ImageButton
+        android:id="@+id/bottom_play"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70dp"
+        android:layout_toLeftOf="@+id/bottom_reset"
+        android:background="@drawable/selector_play"/>
+
+
+    <ImageButton
+        android:id="@+id/bottom_reset"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/selector_reset"/>
+</RelativeLayout>
